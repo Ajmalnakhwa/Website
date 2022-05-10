@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.jpeg" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Poppins:wght@600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Lamborghini</title>
+</head>
+<body>
+    
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="assets/logo2.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick = "hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">MEMBERSHIP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()"></i>
+        </nav>
+
+<div class = "text-box">
+    <h1>Automobili Lamborghini S.p.A</h1>
+    <p>Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese<br>The company is owned by the Volkswagen Group through its subsidiary Audi.Ferruccio Lamborghini.</p>
+    <a href = "" class="hero-btn">Visit us to Know More</a>
+</div>
+    </section>
+
+    <section class="world">
+        <h1>LAMBORGHINI WORLD</h1>
+        <p>THE REAL RACE MORE THAN A GAME</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>DEALER LOCATOR</h3>
+                <p>GIVE SHAPE TO YOUR DESIRES
+                    Present everywhere in the world, the Authorized Lamborghini Dealers are ready to offer you an exclusive and personalized service to guide your through every step of your Lamborghini experience.</p>
+            </div>
+            <div class="course-col">
+                <h3>ESPORTS</h3>
+                <p>The Real Race: More than a game. After the success of the past two years, the Lamborghini Esports global competition for players of all levels on Assetto Corsa Competizione is back for a third edition.</p>
+            </div>
+            <div class="course-col">
+                <h3>MOTORSPORT</h3>
+                <p>The third generation Huracán for GT3 class racing is here. Lamborghini presents Huracán GT3 EVO2, an enhanced racing version of Huracán STO designed and developed by Squadra Corse in collaboration with Centro Stile.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Explore the World of Lamborghini<br>Do visit us</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h2>ABOUT US</h2>
+        <p>Our Mission To deliver the most desirable luxury super sports cars we aim to uncompromising Quality up to the finest detail.<br>Quality is a Core competence of Automobili Lamborghini.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o">By Ajmal Nakhwa</i></p>
+    </section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
